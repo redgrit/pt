@@ -1,0 +1,56 @@
+/* emmaalina - personal trainer	*/
+/* version 2015-10-23 			*/
+
+/* 	Table of contents 			*/
+/*	1. Default Styles			*/
+/*	2. Define the id styles  	*/
+/*	3. Define the class styles  */
+
+
+/* 1. Default styles 			*/
+body {
+	background : #e0e0e0 ;
+	color : #606060;
+}
+
+header h1 {
+	color : #6060e0 ;
+	text-align : center;
+	font-size : 2em ;
+}
+header img {
+	width : 100% ;
+	display : block ;
+}
+
+footer {
+	color : #6060e0 ;
+	text-align : right;
+	font-size : 0.8em ;
+}
+
+
+/* 2. id Styles 				*/
+.main {
+		margin : 5px ;
+		border : 1px dotted #606060 ;
+		border-radius : 5px ;
+		padding : 5px ;
+}
+.main h1 {
+	color : #6060e0 ;
+}
+
+/* 3. class Styles				*/
+.tableleft {
+	text-align : left ;
+	padding : 2px ;
+}
+.tableright { 
+	text-align : right ;
+	width : 20% ;
+	color : #6060e0 ;
+}
+.pure-button-primary {
+	background : #6060e0 ;
+}

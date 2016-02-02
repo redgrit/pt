@@ -37,4 +37,18 @@ $(document).ready(function() {
 		$("#pounds").val(tot2) ;
 		} ) ;
 		
+	// convert stones pounds to kgs
+	$("#itom3").click(function() {
+		var ounces = $("#ounces").val() ;
+		var total = Math.round(parseInt(ounces) * 28.3495) ;
+		$("#grams").val(total) ;
+		} ) ;
+		
+	// convert kgs to stones pounds
+	$("#mtoi3").click(function() {
+		var grams = $("#grams").val() ;
+		var total = Math.round((parseInt(grams) / 28.3495)) ;
+		$("#ounces").val(total) ;
+		} ) ;
+		
 	} ) ;

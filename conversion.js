@@ -1,3 +1,4 @@
+//  alina-pt.co.uk
 //  JQuery to carry out the calcuations 
 $(document).ready(function() {
 
